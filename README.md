@@ -7,7 +7,7 @@ Here, for simplicity, we used HAL-API programming. However, the current CAN HAL-
 
 2. How to use:
 
-Dowload the whole content of the project, run the CubeMX file C12_CAN_Reg.ioc and generate project for IAR EWARM. 
+Dowload the whole content of the project, run the CubeMX file C12_CAN_API.ioc and generate project for IAR EWARM. 
 Open the generated project, Download and Degug (Ctrl+R) in the first board, then Go (F5). 
 Invert the identifiers: 0x02 as "Own ID" and 0x01 for "Accepted ID", Download  and Degug (Ctrl+R with the first board decoupled)  in the second board, then Go (F5). 
 In the Live watch field of each board we may see the Tx and Rx variables and the lower bits of the corresponding variable may be seen on user leds. 
